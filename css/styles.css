@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+p{
+    color: #fff;
+    font-size: 0.8rem;
+    padding: 15px;
+}
+h2 {
+    padding: 20px 0;
+    font-size: 1.4rem;
+}
+h3 {
+    padding: 20px 0;
+    font-size: 1rem;
+}
+h4{
+    text-decoration: underline;
+}
+
+span {
+    text-decoration: underline;
+}
+
+input {
+    margin: 20px 0;
+}
+
+nav ul .en{
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 1px;
+    right: 10px;
+}
+nav ul .en button{
+       width: 120px;
+        height: 40px;
+        border: 4px solid #acd6ef;
+        border-radius: 5px;
+}
+
+
+
+#Sign-up{
+display: flex;
+}
+.Image{
+   width: 50%;
+   
+}
+.sign-image{
+    width:600px ;
+    padding-top: 40px;
+}
+.sign-imagee {
+    width: 600px;
+}
+.image{
+    background-color: #327bf2;
+    padding: 20px;
+    padding-top: 40px;
+}
+.image-two{
+    background-color: #2b2f30;
+    padding: 50px 10px;
+}
+.ftmo{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+   background-color: #191b1c;
+   height: 170px;
+}
+.ftmo-text{
+    font-size: 1rem;
+    color: #fff;
+}
+
+.sign-up{text-align: center;
+    background-color: #f2f3f3;
+    width: 50%;
+    padding: 50px 130px;
+}
+.toggle{
+    display: flex;
+    justify-content: end;
+}
+.login-logo{
+    padding: 20px 0 30px;
+}
+
+.password, .email{
+    width:360px ;
+    height: 30px;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: #acd6ef;
+    color: #000
+}
+.password:focus{
+    /* border: 5px solid #5aaad8; */
+}
+
+.form-check{
+    display: flex;
+}
+.form-checkbox{
+  width: 1.5rem;
+  height: 1.3rem;
+  margin: 3px;
+  line-height: 1;
+  font-size: 0.9rem;
+  font-weight: 200;
+ 
+}
+.login-form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-in{
+    margin-top: 60px;
+}
+
+.btn-signin{
+    width: 100%;
+    background-color:#0b81fd ;
+    font-size: 1.2rem;
+   padding:9px;
+   border-radius:5px;
+   border-color: transparent;
+   color: #fff;
+}
+.social-media{
+    display: flex;
+    justify-content: space-evenly;
+}
+.google-icon{
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 50%;
+    
+}
+.google{
+   padding: 10px;
+}
+.apple-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+}
+.apple{font-size: 1.7rem;
+    color: #000;
+   position: absolute;
+   top: 15px; left: 20px;
+}
+.facebook{
+    font-size: 3.5rem;
+    color: #3b5998;
+}
+
+.user{
+    font-weight: 300;
+   padding: 0;
+}
+.register{
+  padding-top: 30px;
+}
